@@ -308,47 +308,6 @@ body::after{
   z-index:-1;
 }
 
-/* NAVBAR */
-nav{
-  width:100%;
-  padding:22px 70px;
-
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:1000;
-
-  background:rgba(8,25,43,0.45);
-  backdrop-filter:blur(10px);
-}
-
-.logo{
-  font-size:26px;
-  font-weight:700;
-  letter-spacing:2px;
-}
-
-nav ul{
-  display:flex;
-  list-style:none;
-  gap:35px;
-}
-
-nav ul li a{
-  text-decoration:none;
-  color:#d1d5db;
-  font-size:15px;
-  transition:0.3s;
-}
-
-nav ul li a:hover{
-  color:#6ea8ff;
-}
-
 
 /* HERO */
 .hero{
