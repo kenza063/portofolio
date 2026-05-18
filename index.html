@@ -389,88 +389,144 @@
           <div class="glass rounded-2xl p-4">
             <textarea rows="7" placeholder="Your Message"></textarea>
           </div>
-
           <button class="w-full py-4 rounded-2xl bg-blue-700 glow text-lg">
             Send Message
           </button>
-
         </div>
-
         <!-- CONTACT CARD -->
         <div class="flex flex-col justify-between gap-5 h-full" data-aos="fade-left">
           <div class="grid grid-cols-3 gap-4">
-
             <div class="glass rounded-2xl p-5 text-center glow">
               <i class="bi bi-telephone text-3xl"></i>
               <p class="text-sm mt-3">+62 896...</p>
             </div>
-
             <div class="glass rounded-2xl p-5 text-center glow">
               <i class="bi bi-instagram text-3xl"></i>
               <p class="text-sm mt-3">@kenza</p>
             </div>
-
             <div class="glass rounded-2xl p-5 text-center glow">
               <i class="bi bi-tiktok text-3xl"></i>
               <p class="text-sm mt-3">@zaza</p>
             </div>
-
           </div>
-
          <!-- MAP -->
-        
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.0006529301572!2d110.530058761827!3d-7.371612849638137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a775184208495%3A0x5ccd2df2d6b4c390!2sMasjid%20Nurul%20Hikmah%20Jubug%20Tegalwaton!5e1!3m2!1sen!2sid!4v1778935368946!5m2!1sen!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[320px] rounded-3xl"></iframe>
-         
         </div>
-
       </div>
-
     </div>
-
   </section>
-
   <!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-container">
-
-    <!-- About -->
-    <div class="footer-box">
-      <h2>About us</h2>
-      <p>
-        Students who are learning web development
-        with a focus on HTML, CSS and JavaScript.
+<footer class="mt-24 border-t border-white/10 bg-[#03111f]">
+  <div class="max-w-7xl mx-auto px-8 md:px-14 py-14">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-16">
+      <!-- LEFT -->
+      <div class="max-w-sm">
+        <h1 class="text-4xl font-bold">
+          KNZ
+        </h1>
+        <p class="text-cyan-400 tracking-[4px] uppercase text-sm mt-2">
+          Frontend Developer
+        </p>
+        <p class="text-slate-300 leading-7 mt-6">
+          Creating modern and interactive websites
+          with clean UI design, smooth animation,
+          and responsive layout.
+        </p>
+        <!-- SOCIAL -->
+        <div class="flex gap-4 mt-8">
+          <a href="#"
+          class="w-11 h-11 rounded-xl glass
+          flex items-center justify-center
+          hover:bg-cyan-500 duration-300">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#"
+          class="w-11 h-11 rounded-xl glass
+          flex items-center justify-center
+          hover:bg-cyan-500 duration-300">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#"
+          class="w-11 h-11 rounded-xl glass
+          flex items-center justify-center
+          hover:bg-cyan-500 duration-300">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="grid grid-cols-2 gap-10">
+        <!-- NAVIGATION -->
+        <div>
+          <h2 class="text-2xl font-semibold mb-6">
+            Navigation
+          </h2>
+          <ul class="space-y-4 text-slate-300">
+            <li>
+              <a href="#home"
+              class="hover:text-cyan-400 duration-300">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about"
+              class="hover:text-cyan-400 duration-300">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#skills"
+              class="hover:text-cyan-400 duration-300">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#projects"
+              class="hover:text-cyan-400 duration-300">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact"
+              class="hover:text-cyan-400 duration-300">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- CONTACT -->
+        <div>
+          <h2 class="text-2xl font-semibold mb-6">
+            Contact
+          </h2>
+          <div class="space-y-5 text-slate-300">
+            <div class="flex items-center gap-4">
+              <i class="fa-solid fa-envelope text-cyan-400"></i>
+              <span>syahzaken@gmail.com</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <i class="fa-solid fa-phone text-cyan-400"></i>
+              <span>+62 896-6866...</span>
+            </div>
+            <div class="flex items-center gap-4">
+              <i class="fa-solid fa-location-dot text-cyan-400"></i>
+              <span>Jawa Tengah, Indonesia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BOTTOM -->
+    <div class="border-t border-white/10 mt-12 pt-6
+    flex flex-col md:flex-row
+    justify-between items-center gap-3">
+      <p class="text-slate-400 text-sm">
+        &copy; 2026 KNZ Portfolio. All rights reserved.
+      </p>
+      <p class="text-slate-500 text-sm">
+        Built with HTML, CSS & JavaScript
       </p>
     </div>
-
-    <!-- Navbar -->
-    <div class="footer-box">
-      <h2>Navbar</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <!-- Contact -->
-    <div class="footer-box">
-      <h2>Contact me</h2>
-
-      <div class="contact-item">
-        <i class="fa-solid fa-envelope"></i>
-        <span>syahzaken@gmail.com</span>
-      </div>
-
-      <div class="contact-item">
-        <i class="fa-solid fa-phone"></i>
-        <span>+62 896-6866-9257</span>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 knz</p>
   </div>
 </footer>
 
